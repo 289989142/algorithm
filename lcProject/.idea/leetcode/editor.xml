@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="LeetcodeEditor">
+    <option name="projectConfig">
+      <map>
+        <entry key="$PROJECT_DIR$/../lc/leetcode/editor/cn/[CountAndSay.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="path" value="$PROJECT_DIR$/../lc/leetcode/editor/cn/[CountAndSay.java" />
+              <option name="questionId" value="38" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../lc/leetcode/editor/cn/[InsertInterval.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="path" value="$PROJECT_DIR$/../lc/leetcode/editor/cn/[InsertInterval.java" />
+              <option name="questionId" value="57" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../lc/leetcode/editor/cn/[InsertionSortList.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="path" value="$PROJECT_DIR$/../lc/leetcode/editor/cn/[InsertionSortList.java" />
+              <option name="questionId" value="147" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../lc/leetcode/editor/cn/[MergeIntervals.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="path" value="$PROJECT_DIR$/../lc/leetcode/editor/cn/[MergeIntervals.java" />
+              <option name="questionId" value="56" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../lc/leetcode/editor/cn/[RemoveElement.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="path" value="$PROJECT_DIR$/../lc/leetcode/editor/cn/[RemoveElement.java" />
+              <option name="questionId" value="27" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../lc/leetcode/editor/cn/[SortColors.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="path" value="$PROJECT_DIR$/../lc/leetcode/editor/cn/[SortColors.java" />
+              <option name="questionId" value="75" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../lc/leetcode/editor/cn/[TrappingRainWater.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="path" value="$PROJECT_DIR$/../lc/leetcode/editor/cn/[TrappingRainWater.java" />
+              <option name="questionId" value="42" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../lc/leetcode/editor/cn/[ValidSudoku.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="path" value="$PROJECT_DIR$/../lc/leetcode/editor/cn/[ValidSudoku.java" />
+              <option name="questionId" value="36" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>
