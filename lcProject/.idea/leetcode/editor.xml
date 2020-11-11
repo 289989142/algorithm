@@ -67,6 +67,22 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/../../lc/leetcode/editor/cn/[ContainerWithMostWater.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="path" value="$PROJECT_DIR$/../../lc/leetcode/editor/cn/[ContainerWithMostWater.java" />
+              <option name="questionId" value="11" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../lc/leetcode/editor/cn/[MedianOfTwoSortedArrays.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="path" value="$PROJECT_DIR$/../../lc/leetcode/editor/cn/[MedianOfTwoSortedArrays.java" />
+              <option name="questionId" value="4" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
       </map>
     </option>
   </component>
