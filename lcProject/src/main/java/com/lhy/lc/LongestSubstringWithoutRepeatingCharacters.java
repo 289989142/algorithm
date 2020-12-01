@@ -14,7 +14,12 @@ public class LongestSubstringWithoutRepeatingCharacters {
         Solution solution = new LongestSubstringWithoutRepeatingCharacters().new Solution();
         System.out.println(solution.lengthOfLongestSubstring(" "));
     }
-    //leetcode submit region begin(Prohibit modification and deletion)
+
+    /**
+     解答成功:
+     执行耗时:853 ms,击败了5.01% 的Java用户
+     内存消耗:38.9 MB,击败了57.09% 的Java用户
+    **/
     class Solution {
         public int lengthOfLongestSubstring(String s) {
             char[] chars = s.toCharArray();
@@ -35,6 +40,4 @@ public class LongestSubstringWithoutRepeatingCharacters {
             return maxLength;
         }
     }
-//leetcode submit region end(Prohibit modification and deletion)
-
 }
