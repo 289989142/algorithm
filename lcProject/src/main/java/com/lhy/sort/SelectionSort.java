@@ -13,21 +13,21 @@ public class SelectionSort {
         int[] sorted = SelectionSort.selection(arr);
 
         for (int value : sorted) {
-            System.out.println(value);
+            System.out.print(value+" ");
         }
     }
     public static int[] selection(int[] arr){
         int length = arr.length;
-        int temp = 0;
+        int minPos = 0;
         for (int i = 0; i < length; i++) {
             for (int j = i; j < length; j++) {
-                if (arr[j]<arr[temp]){
-                    temp = j;
+                if (arr[j]<arr[minPos]){
+                    minPos = j;
                 }
             }
-            if (temp != i){
-                int swap = arr[temp];
-                arr[temp] = arr[i];
+            if (minPos != i){
+                int swap = arr[minPos];
+                arr[minPos] = arr[i];
                 arr[i] = swap;
             }
         }
