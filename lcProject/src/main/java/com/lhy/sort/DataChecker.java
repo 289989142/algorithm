@@ -29,7 +29,7 @@ public class DataChecker {
         System.arraycopy(arr,0,arrCopy,0,arr.length);
 
         Arrays.sort(arr);
-        SelectionSort.sort(arrCopy);
+        InsertionSort.sort1(arrCopy);
 
         boolean same = true;
         for (int i = 0; i < arr.length; i++) {

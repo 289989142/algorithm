@@ -11,7 +11,7 @@ public class SelectionSort {
     public static void main(String[] args) {
         int[] arr= {11,2,3,123,5,5,1,3,5};
         SelectionSort.sort(arr);
-        printArr(arr);
+        CoreMethod.printArr(arr);
     }
     public static int[] sort(int[] arr){
         int length = arr.length;
@@ -24,21 +24,11 @@ public class SelectionSort {
                 minPos = arr[j]<=arr[minPos] ? j : minPos;
             }
 
-            swap(arr,minPos,i);
+            CoreMethod.swap(arr,minPos,i);
         }
 
         return arr;
     }
 
-    public static void printArr(int[] arr){
-        for (int value : arr) {
-            System.out.print(value+" ");
-        }
-    }
 
-    public static void swap(int[] arr,int pos1,int pos2){
-        int temp = arr[pos1];
-        arr[pos1] = arr[pos2];
-        arr[pos2] = temp;
-    }
 }
