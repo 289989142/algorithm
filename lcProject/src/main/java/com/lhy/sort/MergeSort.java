@@ -1,8 +1,8 @@
 package com.lhy.sort;
 
 /**
- * @ClassName MergeSort
- * @Description 归并排序 nlog2n n 稳
+ * @ClassName MergeSort  适合区间有序的
+ * @Description 归并排序 nlogn n 稳  (对于对象的排序都是归并 因为快速稳定)
  * @Author lihengyu
  * @Date 2021/3/9 23:28
  * @Version 1.0
@@ -23,7 +23,7 @@ public class MergeSort {
         sort(arr,left,mid);
         //右边排序
         sort(arr,mid+1,right);
-
+        //归并
         merge(arr,left,mid+1,right);
     }
     private static void merge(int[] arr,int leftPrt,int rightPrt,int rightBound){

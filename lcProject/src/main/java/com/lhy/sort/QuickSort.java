@@ -3,41 +3,40 @@ package com.lhy.sort;
 import java.util.Arrays;
 
 /**
- * 快排 非手撕
+ * 快排  适合对稳定性没有要求的
  * @author HASEE
  */
 public class QuickSort {
     public static void main(String[] args) {
-        int[] arr = new int[]{1, 2323, 34, 6, 657, 111111};
+        int[] arr = new int[]{6,10,3,2,8,1,9,5,4,6,6,6};
         sort(arr,0,arr.length-1);
         System.out.println(Arrays.toString(arr));
     }
     static void sort(int[] arr, int start, int end){
-        int i = start;
-        int j = end;
-        int key = arr[start];
+        if (start>=end){
+            return;
+        }
 
-        while (i<j) {
-            while (i < j && arr[j] > key){
-                j--;
+        int key = partition(arr,start,end);
+        sort(arr,start,key-1);
+        sort(arr,key+1,end);
+    }
+    static int partition(int[] arr, int start, int end){
+        int key = end;
+        int left = start;
+        int right = end-1;
+        while (left<=right){
+            while (arr[left] <= arr[key] && left<=right){
+                left++;
             }
-            while (i < j && arr[i] < key){
-                i++;
+            while (arr[right] > arr[key] && left<=right){
+                right--;
             }
-            if (i < j && arr[i] == arr[j]){
-                i++;
-            } else {
-                int temp = arr[i];
-                arr[i] = arr[j];
-                arr[j] = temp;
-            }
-            //ij相等 是当前key的位置
-            if (i > start +1) {
-                sort(arr, start, i - 1);
-            }
-            if (i < end -1) {
-                sort(arr, i + 1, end);
+            if (left<right){
+                CoreMethod.swap(arr,left,right);
             }
         }
+        CoreMethod.swap(arr,key,left);
+        return left;
     }
 }

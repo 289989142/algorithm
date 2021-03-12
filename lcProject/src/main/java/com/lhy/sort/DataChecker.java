@@ -30,7 +30,8 @@ public class DataChecker {
 
         Arrays.sort(arr);
 //        ShellSort.sort(arrCopy);
-        MergeSort.sort(arrCopy,0,arrCopy.length-1);
+//        MergeSort.sort(arrCopy,0,arrCopy.length-1);
+//        QuickSort.sort(arrCopy,0,arrCopy.length-1);
         boolean same = true;
         for (int i = 0; i < arr.length; i++) {
             if (arr[i] != arrCopy[i]) {
